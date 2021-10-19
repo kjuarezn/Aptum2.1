@@ -68,9 +68,9 @@
 }
 
 .head-img img {
-  position: absolute;
+  position: relative;
   z-index: -1;
-  margin-top: 0;
+  margin-top: -5rem;
   width: 90%;
   border-radius: 0 0 40vw 0;
 }
@@ -83,12 +83,12 @@ div.productos {
   padding: 3rem;
   width: 100%;
   height: 70vh;
-  background-color: #ffe194;
+  /* background-color: #ffe194;*/
   border-radius: 10rem 0 10rem 0;
 }
 
 .img-product {
-  margin-top: 60rem;
+  margin-top: 20rem;
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -178,6 +178,38 @@ div.desc {
   font-weight: bold;
 }
 /*Termina Productos*/
+/*Comienza Equipo Aptum*/
+/*Comienza Sobre la empresa aptum*/
+.aptum {
+  top: 102rem;
+  margin: 0;
+  height: 80%;
+  position: absolute;
+  background-color: #313131;
+  border-radius: 15px 15px 14px 15px;
+}
+.slider {
+  height: 900px;
+  background: url(./images/fondo2-head.jpeg);
+  background-size: cover;
+  animation: slide 10s infinite;
+}
+@keyframes slide {
+  25% {
+    background: url(./images/fondo2-head.jpeg);
+    background-size: cover;
+  }
+  50% {
+    background: url(./images/fondo3-head.jpeg);
+    background-size: cover;
+  }
+  75% {
+    background: url(./images/fondo-head.jpeg);
+    background-size: cover;
+  }
+}
+/*Termina Sobre la empresa aptum*/
+/*Termina Equipo Aptum*/
 
 /* Vista para Dispositivos*/
 @media only screen and (max-width: 800px) {
@@ -196,7 +228,7 @@ div.desc {
   .head-img img {
     position: absolute;
     z-index: -1;
-    margin-top: 3.5rem;
+    margin-top: 0rem;
     width: 100%;
     border-radius: 0;
   }
@@ -204,13 +236,14 @@ div.desc {
   div.productos {
     position: relative;
 
-    height: 100vh;
-    background-color: #ffe194;
+    height: 180vh;
+    /*background-color: #ffe194;*/
     border-radius: 0 0 0 0;
   }
   .img-product {
     position: absolute;
     margin-top: 30rem;
+    width: 100%;
 
     background-repeat: no-repeat;
     background-size: cover;
@@ -230,7 +263,7 @@ div.desc {
     position: relative;
     padding: 0;
     width: 100%;
-    height: 145vh;
+    height: 180vh;
     background-color: #ffe194;
     border-radius: 0 0 0 0;
   }
@@ -264,6 +297,67 @@ div.desc {
   }
 
   /*Finaliza Productos*/
+  /*Comienza Equipo aptum*/
+  .aptum {
+    top: 84.5rem;
+    width: 25rem;
+    margin: 0;
+    height: 30%;
+    position: absolute;
+    background-color: #313131;
+    border-radius: 15px 15px 14px 15px;
+  }
+  .slider {
+    height: 200px;
+    background: url(./images/fondo2-head.jpeg);
+    background-size: cover;
+    animation: slide 10s infinite;
+  }
+  @keyframes slide {
+    25% {
+      background: url(./images/fondo2-head.jpeg);
+      background-size: cover;
+    }
+    50% {
+      background: url(./images/fondo3-head.jpeg);
+      background-size: cover;
+    }
+    75% {
+      background: url(./images/fondo-head.jpeg);
+      background-size: cover;
+    }
+  }
+  /*Termina Equipo aptum*/
+}
+@media only screen and (max-width: 380px) {
+  /*Inicia Productos*/
+  div.productos {
+    top: -1.5rem;
+    height: 168vh;
+  }
+  div.productos h1 {
+    width: 80%;
+    padding: 2rem 0 0 0;
+    margin-left: 4rem;
+    text-align: unset;
+  }
+  .img-product {
+    position: absolute;
+    margin-top: 15em;
+  }
+  div.galeria {
+    position: relative;
+    margin-left: 2rem;
+    margin-top: 20px;
+    float: left;
+    width: 45vh;
+  }
+  .productos button {
+    position: absolute;
+
+    top: 62rem;
+    right: 5.5rem;
+  }
 }
 
 @media only screen and (min-width: 1100px) {
@@ -282,12 +376,12 @@ div.desc {
     position: relative;
     width: 100%;
 
-    background-color: #ffe194;
+    /* background-color: #ffe194;*/
   }
   div.galeria {
     position: relative;
     margin-left: 70px;
-    margin-top: 20px;
+    margin-top: 0;
     float: left;
     width: 49vh;
   }
@@ -338,7 +432,7 @@ div.desc {
 
   .img-product {
     position: absolute;
-    margin-top: 60rem;
+    margin-top: 3rem;
 
     background-repeat: no-repeat;
     background-size: cover;
@@ -346,8 +440,37 @@ div.desc {
   div.productos {
     position: relative;
     width: 118.9rem;
-
-    background-color: #ffe194;
+    height: 55vh;
   }
   /*Finaliza Productos*/
+  /*Comienza Sobre la empresa aptum*/
+  .aptum {
+    top: 102rem;
+    margin: 0;
+    height: 80%;
+    position: absolute;
+    background-color: #313131;
+    border-radius: 15px 15px 14px 15px;
+  }
+  .slider {
+    height: 900px;
+    background: url(./images/fondo2-head.jpeg);
+    background-size: cover;
+    animation: slide 10s infinite;
+  }
+  @keyframes slide {
+    25% {
+      background: url(./images/fondo2-head.jpeg);
+      background-size: cover;
+    }
+    50% {
+      background: url(./images/fondo3-head.jpeg);
+      background-size: cover;
+    }
+    75% {
+      background: url(./images/fondo-head.jpeg);
+      background-size: cover;
+    }
+  }
+  /*Termina Sobre la empresa aptum*/
 }
