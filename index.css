@@ -255,10 +255,15 @@ div.desc {
     color: #000000;
     font-family: sans-serif;
   }
+
   /*Finaliza Productos*/
 }
 @media only screen and (max-width: 500px) {
   /*Inicia Productos*/
+  .products {
+    width: 100%;
+    overflow-x: hidden;
+  }
   div.productos {
     position: relative;
     padding: 0;
@@ -278,7 +283,7 @@ div.desc {
   .img-product {
     position: absolute;
     margin-top: 15em;
-
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -287,19 +292,19 @@ div.desc {
     margin-left: 2rem;
     margin-top: 20px;
     float: left;
-    width: 40vh;
+    width: 45vh;
   }
   .productos button {
     position: absolute;
 
-    top: 68rem;
-    right: 5.5rem;
+    top: 63rem;
+    right: 6.5rem;
   }
 
   /*Finaliza Productos*/
   /*Comienza Equipo aptum*/
   .aptum {
-    top: 84.5rem;
+    top: 88rem;
     width: 25rem;
     margin: 0;
     height: 30%;
@@ -441,6 +446,25 @@ div.desc {
     position: relative;
     width: 118.9rem;
     height: 55vh;
+  }
+  .productos button a {
+    outline: none;
+    text-decoration: none;
+    width: 100%;
+    margin-right: 0.625%;
+    text-align: center;
+    line-height: 1;
+    color: black;
+    font-size: 25px;
+    font-family: sans-serif;
+  }
+  .productos button:hover {
+    background-color: #4caf50;
+    color: black;
+  }
+
+  .boton-product {
+    color: black;
   }
   /*Finaliza Productos*/
   /*Comienza Sobre la empresa aptum*/
