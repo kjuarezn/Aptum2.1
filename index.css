@@ -824,7 +824,7 @@ h2 {
   /*Comienza Pie de pagina*/
   .footer {
     position: relative;
-    top: 285rem;
+    top: 295rem;
     display: flex;
     flex-flow: row wrap;
     padding: 50px;
