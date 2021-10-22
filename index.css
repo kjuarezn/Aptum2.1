@@ -752,31 +752,65 @@ h2 {
     border-radius: 0 0 0 0;
   }
   .aptum-fondo {
-    padding: 0 0 0 0;
-    margin: 0 0 0 47.5rem;
-    position: absolute;
-
+    margin: 0 0 0 13rem;
+    z-index: -11;
     top: 0rem;
-    width: 50%;
-    height: 53.5rem;
-    background-color: rgb(0, 0, 0);
-    opacity: 1;
-    border-radius: 0 0 10rem 0;
+    height: 14.4rem;
+    opacity: 0.01;
+    border-radius: 0 0 0 0;
   }
   .aptum-img h1 {
-    position: relative;
-    color: rgb(2, 2, 2);
-    font-size: 50px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
     opacity: 1 !important;
-    top: -50rem;
-    z-index: -11;
-    margin-left: 65rem;
+    top: -13rem;
+    z-index: -1;
+    margin-left: 18rem;
   }
+  .fondo-aptum {
+    margin: 0 0 0 13rem;
+    z-index: 1;
+    height: 14.4rem;
+    border-radius: 0 0 0 0;
+  }
+  .mision-ap h1 {
+    font-size: 20px;
+    top: -13rem;
+    z-index: 2;
+    margin-left: 18rem;
+  }
+  .mision-ap p {
+    margin-left: 15rem;
+    top: 4rem;
+    width: 10rem;
+    font-size: 10px;
+    z-index: 2;
+  }
+  .fondo-aptumv {
+    margin: 0 0 0 13rem;
+    z-index: 1;
+    height: 14.4rem;
+    border-radius: 0 0 0 0;
+  }
+  .mision-apv h1 {
+    font-size: 20px;
+    top: -13rem;
+    z-index: 2;
+    margin-left: 18rem;
+  }
+  .mision-apv p {
+    margin-left: 15rem;
+    top: 4rem;
+    width: 10rem;
+    font-size: 10px;
+    z-index: 2;
+  }
+
   /*Termina Sobre la empresa aptum*/
   /*Comienza Equipo aptum*/
   .container-equipo {
     position: relative;
-    top: 91rem;
+    top: 92rem;
   }
   .our-team {
     width: 80%;
