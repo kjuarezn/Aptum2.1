@@ -743,7 +743,7 @@ h2 {
   /*Finaliza Productos*/
   /*Comienza Sobre la empresa aptum*/
   .aptum {
-    top: 100rem;
+    top: 105rem;
     margin: 0;
     position: relative;
     background-color: #ffffff;
@@ -808,7 +808,7 @@ h2 {
   /*Comienza Equipo aptum*/
   .container-equipo {
     position: relative;
-    top: 98rem;
+    top: 102rem;
   }
   .our-team {
     width: 80%;
