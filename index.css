@@ -59,7 +59,7 @@
   position: fixed;
   top: 1rem;
   margin-left: 30%;
-  width: 40%;
+  width: 30%;
   border-radius: 15px;
 }
 
@@ -80,10 +80,10 @@
 
 div.productos {
   position: relative;
-  top: 2rem;
+  top: -15rem;
   padding: 3rem;
   width: 100%;
-  height: 80vh;
+  height: 40rem;
   background-color: #ffe194;
   border-radius: 10rem 0 10rem 0;
 }
@@ -100,6 +100,13 @@ div.productos h1 {
 
   color: #000000;
   font-family: sans-serif;
+}
+div.galeria {
+  position: relative;
+  margin-left: 70px;
+  margin-top: 0;
+  float: left;
+  width: 30rem;
 }
 .productos button {
   position: absolute;
@@ -233,50 +240,50 @@ div.desc {
 .aptum-img h1 {
   position: relative;
   color: rgb(255, 255, 255);
-  font-size: 50px;
+  font-size: 70px;
   opacity: 1 !important;
-  top: -50rem;
-  z-index: -11;
-  margin-left: 65rem;
+  top: -60rem;
+  z-index: -2;
+  margin-left: 80rem;
 }
 .aptum-fondo {
   padding: 0 0 0 0;
-  margin: 0 0 0 47.5rem;
+  margin: 0 0 0 59rem;
   position: absolute;
-  z-index: -11;
   top: 0rem;
   width: 50%;
-  height: 53.5rem;
+  height: 92.5%;
   background-color: rgb(0, 0, 0);
-  opacity: 0.1;
+  opacity: 0.5;
   border-radius: 0 0 10rem 0;
+  z-index: -2;
 }
 .mision-ap h1 {
   position: relative;
   color: rgb(255, 255, 255);
-  font-size: 50px;
+  font-size: 70px;
   opacity: 1 !important;
-  top: -50rem;
+  top: -60rem;
   z-index: 1;
-  margin-left: 65rem;
+  margin-left: 80rem;
 }
 .mision-ap p {
   position: absolute;
-  margin-left: 55rem;
-  top: 10rem;
-  width: 35rem;
-  font-size: 30px;
+  margin-left: 65rem;
+  top: 16rem;
+  width: 45rem;
+  font-size: 40px;
   text-align: justify;
   color: rgb(255, 255, 255);
   z-index: 1;
 }
 .fondo-aptum {
   padding: 0 0 0 0;
-  margin: 0 0 0 47.5rem;
+  margin: 0 0 0 59rem;
   position: absolute;
   top: 0rem;
   width: 50%;
-  height: 53.5rem;
+  height: 92.5%;
   background-color: rgb(0, 0, 0);
   opacity: 0.5;
   border-radius: 0 0 10rem 0;
@@ -284,45 +291,40 @@ div.desc {
 .mision-apv h1 {
   position: relative;
   color: rgb(255, 255, 255);
-  font-size: 50px;
+  font-size: 70px;
   opacity: 1 !important;
-  top: -50rem;
+  top: -60rem;
   z-index: 1;
-  margin-left: 65rem;
+  margin-left: 80rem;
 }
 .mision-apv p {
   position: absolute;
-  margin-left: 55rem;
-  top: 10rem;
-  width: 35rem;
-  font-size: 30px;
+  margin-left: 65rem;
+  top: 16rem;
+  width: 45rem;
+  font-size: 40px;
   text-align: justify;
   color: rgb(255, 255, 255);
   z-index: 1;
 }
 .fondo-aptumv {
   padding: 0 0 0 0;
-  margin: 0 0 0 47.5rem;
+  margin: 0 0 0 59rem;
   position: absolute;
   top: 0rem;
   width: 50%;
-  height: 53.5rem;
+  height: 92.5%;
   background-color: rgb(0, 0, 0);
   opacity: 0.5;
   border-radius: 0 0 10rem 0;
 }
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .text {
-    font-size: 11px;
-  }
-}
+
 /*Termina Sobre la empresa aptum*/
 /*Comienza Equipo Aptum*/
 
 .container-equipo {
   position: relative;
-  top: 55rem;
+  top: 65rem;
 }
 
 .equipoAptum {
@@ -550,7 +552,7 @@ div.desc {
 
 .footer {
   position: absolute;
-  top: 220rem;
+  top: 240rem;
   display: flex;
   flex-flow: row wrap;
   padding: 50px;
@@ -615,7 +617,6 @@ h2 {
   padding-right: 20%;
   color: #999;
 }
-
 @media screen and (min-width: 600px) {
   .r-footer > * {
     flex: 1;
@@ -637,427 +638,578 @@ h2 {
 /*Termina Pie de Pagina*/
 
 /* Vista para Dispositivos*/
-@media only screen and (max-width: 800px) {
-  /* Extra small devices (phones, 800px and down) */
-  /* For tablets: */
+@media only screen and (max-width: 1280px) {
+  /*Navbar*/
   .navbar {
-    position: fixed;
-    top: 0;
-    margin-left: 0;
-    width: 100%;
-    border-radius: 15px;
+    width: 45%;
   }
-  .navbar-nav a {
-    text-align: center;
-  }
-  .head-img img {
-    position: absolute;
-    z-index: -1;
-    margin-top: 0rem;
-    width: 100%;
-    border-radius: 0;
-  }
-  /*Inicia Productos*/
-  div.productos {
-    position: relative;
-
-    height: 200vh;
-    /*background-color: #ffe194;*/
-    border-radius: 0 0 0 0;
-  }
-  .img-product {
-    position: absolute;
-    margin-top: 30rem;
-    width: 100%;
-
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  /*Comienza Galeria Productos*/
   div.productos h1 {
-    width: 80%;
-    padding: 1rem;
-    margin-left: 20rem;
-    color: #000000;
-    font-family: sans-serif;
-  }
-
-  /*Finaliza Productos*/
-  /*Comienza Empresa Aptum*/
-  .aptum {
-    position: absolute;
-    background-color: white;
-
-    margin-top: 10rem;
-  }
-  .slideshow-container {
-    top: 0rem;
-    position: relative;
-    margin: auto;
-  }
-  /*Termina Empresa Aptum*/
-}
-@media only screen and (max-width: 500px) {
-  /*Inicia Productos*/
-  .products {
-    width: 100%;
-    overflow-x: hidden;
-  }
-  div.productos {
-    position: relative;
-    top: 1rem;
-    padding: 0;
-    width: 100%;
-    height: 180vh;
-
-    border-radius: 0 0 0 0;
-  }
-  div.productos h1 {
-    width: 80%;
-    padding: 2rem 0 0 0;
-
-    margin-left: 5rem;
-    color: #000000;
-    font-family: sans-serif;
-  }
-  .img-product {
-    position: absolute;
-    margin-top: 15em;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  div.galeria {
-    position: relative;
-    margin-left: 2rem;
-    margin-top: 20px;
-    float: left;
-    width: 45vh;
+    margin: 0.5rem 0 5rem 11rem;
   }
   .productos button {
-    position: absolute;
-
-    top: 63rem;
-    right: 6.5rem;
+    top: 3rem;
+  }
+  div.galeria {
+    margin-left: 10px;
+    width: 45vh;
+  }
+  /*Termina Galeria Productos*/
+  /*Comienza Sobre la empresa aptum*/
+  .aptum-img h1 {
+    top: -42rem;
+    margin-left: 55rem;
   }
 
-  /*Finaliza Productos*/
+  .aptum-fondo {
+    margin: 0 0 0 50%;
+    height: 92%;
+  }
+  .mision-ap h1 {
+    top: -42rem;
+    margin-left: 55rem;
+  }
+  .mision-ap p {
+    margin-left: 45rem;
+    width: 30rem;
+  }
+  .fondo-aptum {
+    margin: 0 0 0 50%;
+    height: 92%;
+  }
+  .mision-apv h1 {
+    top: -42rem;
+    margin-left: 55rem;
+  }
+  .mision-apv p {
+    margin-left: 45rem;
+    width: 30rem;
+  }
+  .fondo-aptumv {
+    margin: 0 0 0 50%;
+    height: 92%;
+  }
+  /*Termina Sobre la empresa aptum*/
+  /*Comienza Equipo Aptum*/
+  .container-equipo {
+    top: 40rem;
+  }
+  /*Termina Equipo Aptum*/
+  /*Comienza Pie de Pagina*/
+  .footer {
+    top: 195rem;
+  }
+  /*Termina Pie de Pagina*/
+}
+/* Vista para Dispositivos Nest Hub Ipad Pro*/
+@media only screen and (max-width: 1024px) {
+  /*Navbar*/
+  .navbar {
+    width: 55%;
+    margin-left: 20%;
+  }
+  /*Comienza Galeria Productos*/
+  div.productos {
+    height: 40rem;
+  }
+  div.productos h1 {
+    font-size: 30px;
+    margin: 0.5rem 0 5rem 5rem;
+  }
+
+  div.galeria {
+    margin-left: 1px;
+    width: 18rem;
+  }
+  .text {
+    font-size: 15px;
+  }
+  /*Termina Galeria Productos*/
+  /*Comienza Sobre la empresa aptum*/
+  .aptum-img h1 {
+    top: -33rem;
+    margin-left: 43rem;
+  }
+
+  .aptum-fondo {
+    margin: 0 0 0 50%;
+    height: 90%;
+  }
+  .mision-ap h1 {
+    top: -33rem;
+    margin-left: 43rem;
+  }
+  .mision-ap p {
+    margin-left: 35rem;
+    width: 25rem;
+    font-size: 24px;
+  }
+  .fondo-aptum {
+    margin: 0 0 0 50%;
+    height: 90%;
+  }
+  .mision-apv h1 {
+    top: -33rem;
+    margin-left: 43rem;
+  }
+  .mision-apv p {
+    margin-left: 35rem;
+    width: 25rem;
+    font-size: 28px;
+  }
+  .fondo-aptumv {
+    margin: 0 0 0 50%;
+    height: 90%;
+  }
+  /*Termina Sobre la empresa aptum*/
+  /*Comienza Equipo Aptum*/
+  .container-equipo {
+    top: 30rem;
+  }
+  /*Termina Equipo Aptum*/
+  /*Comienza Pie de Pagina*/
+  .footer {
+    top: 195rem;
+  }
+  /*Termina Pie de Pagina*/
+}
+/* Vista para Dispositivo ipad*/
+@media only screen and (max-width: 768px) {
+  /*Navbar*/
+  .navbar {
+    width: 100%;
+    margin-left: 0;
+    border-radius: 0;
+    top: 0;
+  }
+  .head-img img {
+    margin-top: 0rem;
+  }
+  /*Comienza Galeria Productos*/
+  div.productos {
+    height: 30rem;
+  }
+  div.productos h1 {
+    font-size: 25px;
+    width: 20rem;
+    text-align: center;
+    margin: 0.5rem 0 5rem 5rem;
+  }
+  div.galeria {
+    margin-left: 1px;
+    margin-top: -4rem;
+    width: 33.1%;
+  }
+  .middle {
+    top: 30%;
+    left: 50%;
+  }
+  .text {
+    font-size: 13px;
+  }
+  /*Termina Productos*/
+  /*Comienza Sobre la empresa aptum*/
+  .aptum-img h1 {
+    top: -25rem;
+    margin-left: 32rem;
+  }
+  .aptum-fondo {
+    margin: 0 0 0 50%;
+    height: 87%;
+  }
+
+  .mision-ap h1 {
+    top: -25rem;
+    margin-left: 32rem;
+  }
+  .mision-ap p {
+    top: 7rem;
+    margin-left: 26rem;
+    width: 20rem;
+    font-size: 20px;
+  }
+  .fondo-aptum {
+    margin: 0 0 0 50%;
+    height: 87%;
+  }
+  .mision-apv h1 {
+    top: -25rem;
+    margin-left: 32rem;
+  }
+  .mision-apv p {
+    top: 7rem;
+    margin-left: 26rem;
+    width: 20rem;
+    font-size: 20px;
+  }
+  .fondo-aptumv {
+    margin: 0 0 0 50%;
+    height: 87%;
+  }
+}
+
+/* Vista para Dispositivo Surface Duo*/
+@media only screen and (max-width: 540px) {
+  /*Comienza Nav-bar*/
+  .head-img img {
+    margin-top: 0rem;
+    width: 100%;
+    border-radius: 0 0 0 0;
+  }
+  /*Termina Nav-bar*/
+  /*Comienza Galeria Productos*/
+  div.productos {
+    top: -17rem;
+    height: 78rem;
+    border-radius: 0 0 0 0;
+  }
+  div.productos h1 {
+    width: 50%;
+    margin: -1rem 0 5rem -1rem;
+    font-weight: 10px;
+    text-align: justify;
+  }
+  div.galeria {
+    margin-left: -1rem;
+    margin-top: 0;
+    float: left;
+    width: 30rem;
+  }
+  .middle {
+    top: 35%;
+  }
+  .text {
+    font-size: 20px;
+  }
+  /*Termina Galeria Productos*/
   /*Comienza Sobre la empresa aptum*/
   .aptum {
-    top: 105rem;
-    margin: 0;
-    position: relative;
-    background-color: #ffffff;
+    margin-top: -15rem;
   }
   .slideshow-container img {
     border-radius: 0 0 0 0;
   }
   .aptum-fondo {
-    margin: 0 0 0 50%;
-    z-index: -11;
-    height: 90%;
-    opacity: 0.01;
+    height: 92%;
     border-radius: 0 0 0 0;
+  }
+  .aptum-img h1 {
+    font-size: 25px;
+    top: -18rem;
+    margin-left: 23rem;
+  }
+  .mision-ap p {
+    margin-left: 55%;
+    top: 4rem;
+    width: 13rem;
+    font-size: 15px;
+  }
+  .fondo-aptum {
+    height: 92%;
+    border-radius: 0 0 0 0;
+  }
+  .mision-ap h1 {
+    font-size: 25px;
+    top: -18rem;
+    margin-left: 23rem;
+  }
+  .mision-ap p {
+    margin-left: 55%;
+    top: 4rem;
+    width: 13rem;
+    font-size: 15px;
+  }
+  .fondo-aptumv {
+    height: 92%;
+    border-radius: 0 0 0 0;
+  }
+  .mision-apv h1 {
+    font-size: 25px;
+    top: -18rem;
+    margin-left: 23rem;
+  }
+  .mision-apv p {
+    margin-left: 55%;
+    top: 4rem;
+    width: 13rem;
+    font-size: 15px;
+  }
+  /*Termina Equipo Aptum*/
+  /*Comienza Sobre la empresa aptum*/
+  .container-equipo {
+    top: 8rem;
+  }
+  .our-team {
+    width: 80%;
+    margin-left: 0.5rem;
+  }
+  .our-team-2 {
+    width: 80%;
+    margin-left: 0.5rem;
+  }
+  /*Termina Sobre la empresa aptum*/
+  /*Comienza Pie de Pagina*/
+  .footer {
+    top: 320rem;
+  }
+  /*Termina Pie de Pagina*/
+}
+/* Vista para Dispositivo Iphone 6/7/8 Plus*/
+@media only screen and (max-width: 414px) {
+  /*Comienza Productos*/
+  div.productos {
+    padding: 3rem;
+    height: 88rem;
+  }
+  div.productos h1 {
+    width: 80%;
+    margin: 1rem 0 5rem 3rem;
+    text-align: center;
+  }
+  div.galeria {
+    margin-left: 10px;
+    width: 45vh;
+  }
+  .productos button {
+    top: 80rem;
+    left: 8rem;
+    z-index: 1;
+  }
+  /*Termina Productos*/
+  /*Comienza sobre empresa aptum*/
+  .aptum {
+    margin-top: -16rem;
+  }
+  .aptum-fondo {
+    height: 90%;
   }
   .aptum-img h1 {
     font-size: 20px;
     top: -13rem;
-    z-index: -2;
     margin-left: 18rem;
   }
+
   .fondo-aptum {
-    margin: 0 0 0 50%;
-    z-index: 1;
     height: 90%;
-    border-radius: 0 0 0 0;
   }
   .mision-ap h1 {
     font-size: 20px;
     top: -13rem;
-    z-index: 2;
     margin-left: 18rem;
   }
   .mision-ap p {
-    margin-left: 55%;
     top: 4rem;
-    width: 10rem;
-    font-size: 10px;
-    z-index: 2;
+    width: 10.5rem;
+    font-size: 11px;
   }
-
   .fondo-aptumv {
-    margin: 0 0 0 50%;
-    z-index: 1;
     height: 90%;
-    border-radius: 0 0 0 0;
   }
   .mision-apv h1 {
     font-size: 20px;
     top: -13rem;
-    z-index: 2;
     margin-left: 18rem;
   }
   .mision-apv p {
-    margin-left: 55%;
+    top: 4rem;
+    width: 10.5rem;
+    font-size: 11px;
+  }
+
+  /*Comienza sobre empresa aptum*/
+}
+
+/* Vista para Dispositivo Pixel2, Pixel 2 XL*/
+@media only screen and (max-width: 411px) {
+  /*Comienza Productos*/
+  div.productos {
+    padding: 3rem;
+    height: 88rem;
+  }
+  div.galeria {
+    left: -1rem;
+    width: 20rem;
+  }
+  /*Comienza Sobre la empresa aptum*/
+  .container-equipo {
+    top: 2rem;
+  }
+  /*Comienza Pie de Pagina*/
+  .footer {
+    top: 330rem;
+  }
+  /*Termina Pie de Pagina*/
+}
+
+/*Vista para Dispositivos Iphone 6/7/8, iphone x */
+@media only screen and (max-width: 375px) {
+  /*Comienza sobre empresa aptum*/
+  .aptum-img h1 {
+    font-size: 20px;
+    top: -12rem;
+    margin-left: 16rem;
+  }
+
+  .mision-ap h1 {
+    font-size: 20px;
+    top: -12rem;
+    margin-left: 16rem;
+  }
+  .mision-ap p {
+    top: 4rem;
+    width: 9rem;
+    font-size: 9px;
+  }
+  .mision-apv h1 {
+    font-size: 20px;
+    top: -12rem;
+    margin-left: 16rem;
+  }
+  .mision-apv p {
     top: 4rem;
     width: 10rem;
-    font-size: 10px;
-    z-index: 2;
+    font-size: 9px;
   }
-
-  /*Termina Sobre la empresa aptum*/
-  /*Comienza Equipo aptum*/
-  .container-equipo {
-    position: relative;
-    top: 102rem;
-  }
-  .our-team {
-    width: 80%;
-    margin-left: 0.5rem;
-  }
-  .our-team-2 {
-    width: 80%;
-    margin-left: 0.5rem;
-  }
-
-  /*Termina Equipo aptum*/
-
-  /*Comienza Pie de pagina*/
-  .footer {
-    position: relative;
-    top: 295rem;
-    display: flex;
-    flex-flow: row wrap;
-    padding: 50px;
-
-    color: #fff;
-    background-color: rgb(41, 41, 46);
-  }
-  /*Termina Pie de pagina*/
+  /*Termina sobre empresa aptum*/
 }
-@media only screen and (max-width: 380px) {
-  /*Inicia Productos*/
+
+/*Vista para Dispositivos Galaxy S5 Moto G4*/
+@media only screen and (max-width: 360px) {
+  /*Comienza Galeria Productos*/
   div.productos {
-    top: -1.5rem;
-    height: 200vh;
+    top: -18rem;
+    height: 88rem;
+  }
+  .productos button {
+    left: 5rem;
   }
   div.productos h1 {
     width: 80%;
-    padding: 2rem 0 0 0;
-    margin-left: 4rem;
-    text-align: unset;
-  }
-  .img-product {
-    position: absolute;
-    margin-top: 15em;
+    margin: -1rem 0 5rem 2rem;
   }
   div.galeria {
-    position: relative;
-    margin-left: 2rem;
-    margin-top: 20px;
-    float: left;
-    width: 45vh;
+    margin-left: -1rem;
+    width: 20rem;
   }
-  .productos button {
-    position: absolute;
-
-    top: 62rem;
-    right: 5.5rem;
-  }
-  /*Comienza Empresa Aptum*/
-  .aptum {
-    position: absolute;
-    background-color: white;
-
-    margin-top: 10rem;
-  }
-  .slideshow-container img {
-    border-radius: 0 0 0 0;
-  }
-  .slideshow-container {
-    top: -1rem;
-    position: relative;
-    margin: auto;
-  }
-
-  /*Termina Empresa Aptum*/
-  /*Comienza Equipo Aptum*/
-  .container-equipo {
-    top: 109rem;
-  }
-  .our-team {
-    display: inline-block;
-    width: 80%;
-    padding: 30px 0 40px;
-    margin-bottom: 30px;
-    background-color: #f7f5ec;
-    text-align: center;
-    overflow: hidden;
-    position: relative;
-    margin-top: 2rem;
-    margin-left: 0rem;
-  }
-  .our-team-2 {
-    display: inline-block;
-    width: 80%;
-    padding: 30px 0 40px;
-    margin-bottom: 30px;
-    background-color: #f7f5ec;
-    text-align: center;
-    overflow: hidden;
-    position: relative;
-    margin-top: 0;
-    margin-left: 0rem;
-  }
-
-  /*Termina Equipo Aptum*/
-}
-
-@media only screen and (min-width: 1100px) {
-  .navbar {
-    position: fixed;
-    top: 1rem;
-    margin-left: 25%;
-    width: 45%;
-    border-radius: 15px;
-  }
-  .nav-link {
-    font-size: 1rem;
-  }
-  /*Comienza Productos*/
-  div.productos {
-    position: relative;
-    width: 100%;
-
-    /* background-color: #ffe194;*/
-  }
-  div.galeria {
-    position: relative;
-    margin-left: 70px;
-    margin-top: 0;
-    float: left;
-    width: 49vh;
-  }
-  /*Termina Productos*/
-}
-
-@media only screen and (min-width: 1600px) {
-  .navbar {
-    position: fixed;
-    top: 1rem;
-    margin-left: 25%;
-    width: 45%;
-    border-radius: 15px;
-  }
-  .nav-link {
-    font-size: 1rem;
-  }
-  /*Comienza Productos*/
-}
-
-@media only screen and (min-width: 1800px) {
-  /*Comienza Nav bar*/
-  .navbar {
-    position: fixed;
-    top: 1rem;
-    margin-left: 25%;
-    width: 45%;
-    border-radius: 15px;
-    text-align: center;
-  }
-  .container-fluid a img {
-    width: 5rem;
-  }
-  .navbar-nav a {
-    margin-left: 2rem;
-  }
-  .nav-link {
-    font-size: 1.2rem;
-  }
-  .img-product {
-    margin-top: 80vh;
-
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  /*Termina Nav bar*/
-  /*Inicia Productos*/
-
-  div.productos {
-    top: -50rem;
-    height: 55vh;
-  }
-  /*Finaliza Productos*/
+  /*Termina Galeria Productos*/
   /*Comienza Sobre la empresa aptum*/
   .aptum {
-    position: absolute;
-
-    margin-top: -48rem;
-  }
-  .mision-ap h1 {
-    position: relative;
-    color: rgb(255, 255, 255);
-    font-size: 50px;
-    opacity: 1 !important;
-    top: -60rem;
-    z-index: 1;
-    margin-left: 85rem;
-  }
-  .mision-ap p {
-    position: absolute;
-    margin-left: 65rem;
-    top: 15rem;
-    width: 50rem;
-    font-size: 40px;
-    text-align: justify;
-    color: rgb(255, 255, 255);
-    z-index: 1;
-  }
-  .fondo-aptum {
-    padding: 0 0 0 0;
-    margin: 0 0 0 59.4rem;
-    position: absolute;
-    top: 0rem;
-    width: 50%;
-    height: 67rem;
-    background-color: rgb(0, 0, 0);
-    opacity: 0.6;
-    border-radius: 0 0 10.9rem 0;
-  }
-  .fondo-aptumv {
-    padding: 0 0 0 0;
-    margin: 0 0 0 59.4rem;
-    position: absolute;
-    top: 0rem;
-    width: 50%;
-    height: 67rem;
-    background-color: rgb(0, 0, 0);
-    opacity: 0.5;
-    border-radius: 0 0 10.9rem 0;
-  }
-  .mision-apv h1 {
-    position: relative;
-    color: rgb(255, 255, 255);
-    font-size: 50px;
-    opacity: 1 !important;
-    top: -60rem;
-    z-index: 1;
-    margin-left: 85rem;
+    margin-top: -18rem;
   }
   .mision-apv p {
-    position: absolute;
-    margin-left: 65rem;
-    top: 15rem;
-    width: 50rem;
-    font-size: 40px;
-    text-align: justify;
-    color: rgb(255, 255, 255);
-    z-index: 1;
+    width: 9rem;
+  }
+  /*Termina Sobre la empresa aptum*/
+
+  /*Comienza Pie de Pagina*/
+  .footer {
+    top: 315rem;
+  }
+  /*Termina Pie de Pagina*/
+}
+
+/*Vista para Dispositivos Iphone 5/SE*/
+@media only screen and (max-width: 320px) {
+  /*Comienza Productos*/
+  div.productos h1 {
+    width: 100%;
+    margin: 1rem 0 5rem 0rem;
+    text-align: center;
+  }
+  div.galeria {
+    margin-left: 10px;
+    width: 120%;
+  }
+  /*Termina Productos*/
+  /*Comienza sobre empresa aptum*/
+  .aptum-img h1 {
+    font-size: 20px;
+    top: -10rem;
+    margin-left: 14rem;
   }
 
-  /*Termina Sobre la empresa aptum*/
-  /*Comienza Equipo Aptum*/
-  .container-equipo {
-    top: 25rem;
+  .aptum-fondo {
+    height: 88%;
   }
-  /*Termina Equipo Aptum*/
+  .mision-ap h1 {
+    font-size: 20px;
+    top: -10rem;
+    margin-left: 14rem;
+  }
+  .mision-ap p {
+    top: 4rem;
+    width: 8rem;
+    font-size: 8px;
+  }
+  .fondo-aptum {
+    height: 88%;
+  }
+  .mision-apv h1 {
+    font-size: 20px;
+    top: -10rem;
+    margin-left: 14rem;
+  }
+  .mision-apv p {
+    top: 4rem;
+    width: 8rem;
+    font-size: 8px;
+  }
+  .fondo-aptumv {
+    height: 88%;
+  }
+  /*Termina sobre empresa aptum*/
+  /*Comienza Sobre la empresa aptum*/
+  .container-equipo {
+    top: 0rem;
+  }
+}
+
+/*Vista para Dispositivos Galaxy Fold*/
+@media only screen and (max-width: 280px) {
+  /*Comienza Productos*/
+  div.galeria {
+    margin-left: 10px;
+    width: 135%;
+    margin-left: -1rem;
+  }
+  .productos button {
+    left: 2.5rem;
+  }
+  /*Termina Productos*/
+  /*Comienza sobre empresa aptum*/
+  .aptum-img h1 {
+    font-size: 20px;
+    top: -9rem;
+    margin-left: 12rem;
+  }
+
+  .aptum-fondo {
+    height: 86%;
+  }
+  .mision-ap h1 {
+    font-size: 20px;
+    top: -9rem;
+    margin-left: 12rem;
+  }
+  .mision-ap p {
+    top: 3rem;
+    width: 7rem;
+    font-size: 8px;
+  }
+  .fondo-aptum {
+    height: 86%;
+  }
+  .mision-apv h1 {
+    font-size: 20px;
+    top: -9rem;
+    margin-left: 12rem;
+  }
+  .mision-apv p {
+    top: 3rem;
+    width: 7rem;
+    font-size: 8px;
+  }
+  .fondo-aptumv {
+    height: 86%;
+  }
 }
